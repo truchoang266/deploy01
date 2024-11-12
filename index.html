@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
+     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        body{
+            background:linear-gradient(red, orange);
+            min-height:100vh;
+        }
+
+        .box{
+            width: 400px;
+            height: 500px;
+            border-radius:10px;
+            background:white;
+            text-align:center;
+            margin: 160px auto;
+            padding: 100px;
+
+        }
+       .box p{
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 50px;
+       }
+
+       input[type="text"]{
+            padding: 5px 10px;
+            margin-top: 10px;
+       }
+
+       .box a{
+            text-decoration:none;
+            margin-top: 15px;
+            display: block;
+            color: darkgray;
+       }
+       input[type="button"]{
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 30px;
+            background: red;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            
+            
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p >Sign in</p>
+        <form>
+        <input type="text" name="username" placeholder="Enter your username"><BR>
+        <input type="text" name="password" placeholder="Enter your password"><BR>
+        <a href="#">Forgot your password?</a><br>
+        <input type="button" name="submit" value="Sign in"><br>
+        </form>
+    </div>               
+</body>
+</html>
